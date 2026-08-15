@@ -1,0 +1,12 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "description": "A TRC-20 token deployed on the TRON network.",
+  "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/logo.png",
+  "website": "https://your-website.example",
+  "whitepaper": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/whitepaper.pdf",
+  "network": "TRON",
+  "standard": "TRC-20",
+  "contractAddress": "YOUR_TRON_CONTRACT_ADDRESS"
+}
