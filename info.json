@@ -5,7 +5,7 @@
   "description": "A TRC-20 token deployed on the TRON network.",
   "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/logo.png",
   "website": "https://your-website.example",
-  "whitepaper": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/whitepaper.pdf",
+  "whitepaper": "https://raw.githubusercontent.com/chriscb949290-code/TetherUSD/refs/heads/main/Whitepaper.md",
   "network": "TRON",
   "standard": "TRC-20",
   "contractAddress": "YOUR_TRON_CONTRACT_ADDRESS"
