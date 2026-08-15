@@ -4,7 +4,7 @@
   "decimals": 6,
   "description": "A TRC-20 token deployed on the TRON network.",
   "image": "https://raw.githubusercontent.com/chriscb949290-code/TetherUSD/main/logo.png",
-  "website": "https://your-website.example",
+  "website": "http://tetherlyus.com/",
   "whitepaper": "https://raw.githubusercontent.com/chriscb949290-code/TetherUSD/refs/heads/main/Whitepaper.md",
   "network": "TRON",
   "standard": "TRC-20",
