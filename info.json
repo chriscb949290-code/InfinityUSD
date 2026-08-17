@@ -1,12 +1,12 @@
 {
-  "name": "Tether USD",
-  "symbol": "USDT",
+  "name": "Infinity USD",
+  "symbol": "IUSD",
   "decimals": 6,
-  "description": "A TRC-20 token deployed on the TRON network.",
-  "image": "https://raw.githubusercontent.com/chriscb949290-code/TetherUSD/main/logo.png",
-  "website": "http://tetherlyus.com/",
-  "whitepaper": "https://raw.githubusercontent.com/chriscb949290-code/TetherUSD/refs/heads/main/Whitepaper.md",
+  "description": "Infinity USD (IUSD) is a fixed-supply TRC-20 token deployed on the TRON network.",
+  "image": "https://raw.githubusercontent.com/chriscb949290-code/InfinityUSD/main/logo.png",
+  "website": "https://tetherlyus.com",
+  "whitepaper": "https://raw.githubusercontent.com/chriscb949290-code/InfinityUSD/refs/heads/main/Whitepaper.md",
   "network": "TRON",
   "standard": "TRC-20",
-  "contractAddress": "TPB3mFPyrEyFjwT31NqensCyuwZtTsNyhV"
+  "contractAddress": "TG8Nn8N58AJ7dEfXkzXsWTpVueVhLneaKB"
 }
