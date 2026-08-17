@@ -1,12 +1,12 @@
-# TETHER USD (USDT) — TRC-20
+# INFINITY USD (IUSD) — TRC-20
 
 ## Overview
 
-TETHER USD (USDT) is a TRC-20 token implemented on the TRON network.
+**INFINITY USD (IUSD)** is a TRC-20 token implemented on the TRON network.
 
-The supplied smart contract defines a fixed initial supply of **10,000,000,000 USDT** with **6 decimal places**. The complete initial supply is assigned to the deploying address at deployment.
+The supplied smart contract defines a fixed initial supply of **10,000,000,000 IUSD** with **6 decimal places**. The complete initial supply is assigned to the deploying address at deployment.
 
-> **Important:** This project should not be represented as official Tether USD, or as issued, backed, endorsed, or authorized by Tether Limited, unless separate authorization exists.
+INFINITY USD is an independent token project and should not be represented as an official, issued, backed, endorsed, or authorized token of any other company or token issuer unless separate authorization exists.
 
 ---
 
@@ -14,19 +14,19 @@ The supplied smart contract defines a fixed initial supply of **10,000,000,000 U
 
 | Property     | Value               |
 | ------------ | ------------------- |
-| Name         | TETHER USD          |
-| Symbol       | USDT                |
+| Name         | INFINITY USD        |
+| Symbol       | IUSD                |
 | Network      | TRON                |
 | Standard     | TRC-20              |
 | Decimals     | 6                   |
-| Total Supply | 10,000,000,000 USDT |
+| Total Supply | 10,000,000,000 IUSD |
 | Supply Model | Fixed               |
 | Public Mint  | No                  |
 | Public Burn  | No                  |
 | Transfer Tax | None                |
 | Transfer Fee | None                |
 
-The uploaded contract establishes the token name, symbol, 6 decimals, and 10-billion-token supply.
+The supplied contract establishes the token name, symbol, 6 decimals, and 10-billion-token supply.
 
 ---
 
@@ -51,21 +51,23 @@ It also provides:
 * Standard `Transfer` events
 * Standard `Approval` events
 
-## The contract source contains the corresponding functions and events.
+The contract source contains the corresponding functions and events.
+
+---
 
 ## Supply
 
 The total supply is:
 
-**10,000,000,000 USDT**
+**10,000,000,000 IUSD**
 
 With 6 decimals:
 
-**1 USDT = 1,000,000 base units**
+**1 IUSD = 1,000,000 base units**
 
 Therefore:
 
-**10,000,000,000 USDT = 10,000,000,000,000,000 base units**
+**10,000,000,000 IUSD = 10,000,000,000,000,000 base units**
 
 The contract assigns the complete initial supply to the deployer during deployment.
 
@@ -73,11 +75,13 @@ The contract assigns the complete initial supply to the deployer during deployme
 
 ## Contract Architecture
 
-The token uses a fixed-supply architecture.
+INFINITY USD uses a fixed-supply architecture.
 
 There is no public mint function after deployment, and the supplied contract does not expose a public burn function.
 
 Transfers are performed through the standard TRC-20 accounting model, with balances deducted from the sender and credited to the recipient.
+
+The contract does not include transfer taxes or transfer fees according to the supplied implementation.
 
 ---
 
@@ -103,9 +107,7 @@ metadataURI()
 logoURI()
 ```
 
-The supplied contract currently references GitHub-hosted resources for these URLs.
-
-A project repository can contain:
+The project's public resources may include:
 
 ```text
 /
@@ -115,7 +117,7 @@ A project repository can contain:
 └── README.md
 ```
 
-The metadata can provide additional information such as the token description, logo, website, and whitepaper.
+The metadata can provide additional information such as the INFINITY USD description, logo, official website, documentation, and whitepaper.
 
 Wallets and other applications may use their own token-list and verification systems, so publishing metadata does not guarantee that every platform will automatically display it.
 
@@ -123,16 +125,17 @@ Wallets and other applications may use their own token-list and verification sys
 
 ## Whitepaper
 
-The project whitepaper provides a more detailed description of:
+The INFINITY USD whitepaper provides a more detailed description of:
 
 * Token specifications
-* Supply
+* Fixed supply
 * TRC-20 functionality
-* Distribution
+* Initial distribution
 * Ownership
 * Metadata
 * Security considerations
 * Risk disclosures
+* Project architecture
 
 See:
 
@@ -142,7 +145,7 @@ See:
 
 ## Security
 
-Users should verify the token's exact contract address before interacting with it.
+Users should verify the exact INFINITY USD contract address before interacting with the token.
 
 Smart-contract and digital-asset activity involves risks including:
 
@@ -157,23 +160,27 @@ Smart-contract and digital-asset activity involves risks including:
 
 This repository documentation is not an independent security audit.
 
+Users should independently review the verified contract source and conduct appropriate due diligence before interacting with the token.
+
 ---
 
 ## Verification
 
-The deployed contract source should be verified on TRONSCAN using the exact source code and compiler configuration used for deployment.
+The deployed INFINITY USD contract source should be verified on TRONSCAN using the exact source code and compiler configuration used for deployment.
 
 Verification allows users to inspect the published source corresponding to the deployed bytecode.
+
+Contract verification does not by itself constitute an endorsement, investment recommendation, or guarantee of security.
 
 ---
 
 ## TRON Ecosystem
 
-The token is designed to use the TRC-20 interface on TRON.
+INFINITY USD is designed to use the TRC-20 interface on TRON.
 
-Compatibility with wallets, explorers, decentralized exchanges, and other applications depends on each platform's individual support and listing/verification procedures.
+Compatibility with wallets, explorers, decentralized exchanges, and other applications depends on each platform's individual support and listing or verification procedures.
 
-A token contract being deployed on TRON does not automatically guarantee listing or visibility on every wallet, exchange, or application.
+Deployment of a token on TRON does not automatically guarantee listing, liquidity, or visibility on every wallet, exchange, or application.
 
 ---
 
@@ -181,15 +188,15 @@ A token contract being deployed on TRON does not automatically guarantee listing
 
 ### `info.json`
 
-Machine-readable token metadata.
+Machine-readable metadata for INFINITY USD.
 
 ### `logo.png`
 
-Project/token logo.
+INFINITY USD project/token logo.
 
 ### `whitepaper.pdf`
 
-Detailed project documentation.
+Detailed INFINITY USD project documentation.
 
 ### `README.md`
 
@@ -197,15 +204,25 @@ Repository overview and technical information.
 
 ---
 
+## Project Identity
+
+**INFINITY USD (IUSD)** is an independent digital-token project operating on the TRON network.
+
+The name, symbol, logo, website, metadata, or other branding associated with INFINITY USD should not be interpreted as evidence of affiliation with another token issuer, financial institution, company, or organization unless such affiliation is explicitly documented and independently verifiable.
+
+Users should always identify the token by its exact blockchain contract address rather than relying solely on its name or symbol.
+
+---
+
 ## Disclaimer
 
-This repository describes the supplied smart-contract implementation and its technical characteristics.
+This repository describes the supplied INFINITY USD smart-contract implementation and its technical characteristics.
 
-The use of the name **TETHER USD** and symbol **USDT** in the contract does not, by itself, establish any relationship with Tether Limited.
+Nothing in this documentation constitutes a promise of market value, exchange rate, liquidity, financial return, or investment performance.
 
-This project should not claim to be official Tether USD, Tether-issued USDT, or Tether-authorized unless appropriate authorization and evidence exist.
+Users should independently verify the contract address, source code, token information, metadata, and project documentation before interacting with INFINITY USD.
 
-Users should independently verify the contract address, source code, token information, and project documentation before interacting with the token.
+Digital assets involve significant risks, and users are responsible for conducting their own due diligence.
 
 ---
 
