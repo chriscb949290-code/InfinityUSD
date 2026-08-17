@@ -17,13 +17,13 @@
             "logoURI": "https://coin.top/production/logo/usdtlogo.png"
         },
         {
-            "symbol": "USDT",
-            "address": "TPB3mFPyrEyFjwT31NqensCyuwZtTsNyhV",
-            "chainId": 1,
-            "decimals": 6,
-            "name": "Tether USD",
-            "logoURI": "https://raw.githubusercontent.com/chriscb949290-code/TetherUSD/main/logo.png"
-        },
+  "symbol": "IUSD",
+  "address": "YOUR_IUSD_CONTRACT_ADDRESS",
+  "chainId": 1,
+  "decimals": 6,
+  "name": "Infinity USD",
+  "logoURI": "https://raw.githubusercontent.com/chriscb949290-code/InfinityUSD/main/logo.png"
+}
         {
             "symbol": "SUN",
             "address": "TKkeiboTkxXKJpbmVFbv4a8ov5rAfRDMf9",
