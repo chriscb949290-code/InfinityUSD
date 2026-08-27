@@ -25,11 +25,11 @@
   "logoURI": "https://raw.githubusercontent.com/chriscb949290-code/InfinityUSD/main/logo.png"
 }
         {
-            "symbol": "SUN",
-            "address": "TKkeiboTkxXKJpbmVFbv4a8ov5rAfRDMf9",
+            "symbol": "QSDT",
+            "address": "TTWTMq3jRedLJ8paJLCKvFTgkteSNdSiEy",
             "chainId": 1,
-            "decimals": 18,
-            "name": "SUN TOKEN",
+            "decimals": 6,
+            "name": "QSDT",
             "logoURI": "https://coin.top/production/logo/SUNLogo.178d4636.png"
         },
         {
