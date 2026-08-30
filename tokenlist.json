@@ -23,6 +23,14 @@
       "decimals": 6,
       "name": "QSDT",
       "logoURI": "https://raw.githubusercontent.com/chriscb949290-code/InfinityUSD/main/logo.png"
-    }
+    },
+    {
+            "symbol": "USDT",
+            "address": "TJBGxZhu7EaaQRBvA7YoL3pwx2MiDYP6ug",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Tether USD",
+            "logoURI": "https://coin.top/production/logo/usdtlogo.png"
+        }
   ]
 }
